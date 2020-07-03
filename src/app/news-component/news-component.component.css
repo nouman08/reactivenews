@@ -1,0 +1,957 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.a {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  height: 98px;
+  background-color: rgb( 250, 250, 250 );
+}
+
+.b {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  height: 75px;
+  background-color: rgb( 250, 250, 250 );
+}
+
+.socialIcons {
+  width: 500px;
+  padding: 30px;
+}
+
+.socialIcons ul {
+  float: right
+}
+
+.socialIcons li {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 5px 15px;
+}
+
+.mainHeading {
+  flex: 1;
+  text-align: right;
+  padding: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Playfair Display";
+}
+
+.seperator {
+  background-color: rgb( 221, 221, 221 );
+  height: 2px;
+  margin: 0 auto;
+  padding: 0;
+  width: 1200px;
+}
+
+.navLeft li {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 5px 15px;
+}
+
+.navRight li {
+  list-style-type: none;
+  display: inline-flex;
+  padding: 5px 15px;
+}
+
+.socialIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.hamburger {
+  height: 25px;
+  width: 20px;
+  position: relative;
+  left: 12px;
+}
+
+.navSeperator {
+  background-color: rgb( 221, 221, 221 );
+  position: absolute;
+  top: 112px;
+  width: 2px;
+  height: 49px;
+}
+
+.topnav {
+  flex: 2;
+}
+
+.topnav a {
+  float: left;
+  text-align: center;
+  padding: 26px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+.navRight a {
+  float: left;
+  text-align: center;
+  padding: 26px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+.menuIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.banner {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: rgb( 250, 250, 250 );
+}
+
+.footer {
+  width: 1200px;
+  margin: 0 auto;
+  height: 320px;
+  background-color: rgb( 250, 250, 250 );
+  display: flex
+}
+
+.footerBar {
+  background-color: black;
+  height: 45px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  padding: 16px 40px;
+}
+
+.footerContent {
+  padding: 45px 63px;
+}
+
+.footerContent ul {
+  list-style-type: none
+}
+
+.footerContent li {
+  padding: 10px;
+  font-family: "Georgia";
+  color: rgb( 115, 115, 115 );
+}
+
+strong {
+  color: black;
+}
+
+.leftContent {
+  font-family: "Georgia";
+  color: rgb( 255, 255, 255 );
+  font-size: 12.394px;
+  flex: 1;
+}
+
+.rightContent {
+  font-family: "Georgia";
+  color: rgb( 255, 255, 255 );
+  font-size: 12.394px;
+}
+
+.Icons li {
+  display: inline
+}
+
+.footerIcons {
+  display: flex;
+}
+
+.footerSocialIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.imageSlider {
+  width: 1145px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: rgb( 250, 250, 250 );
+  display: flex;
+}
+
+.image {
+  flex: 1;
+}
+
+.image-holder
+{
+  width: 2400px;
+  height: 400px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+}
+
+.slider-image
+{
+  float: left;
+  margin-right: 5px;
+  position: relative;
+}
+
+#slider-image-1:target ~ .image-holder
+{
+  left: 0px;
+}
+
+#slider-image-2:target ~ .image-holder
+{
+  left: -800px;
+}
+
+#slider-image-3:target ~ .image-holder
+{
+  left: -1600px;
+}
+
+.button-holder
+{
+  text-align: center;
+  padding: 15px;
+  background-color: rgb( 250, 250, 250 );
+}
+
+.slider-change
+{
+  display: inline-block;
+  border-radius: 10px;
+  background-color: rgb( 176, 175, 175 );
+  width: 6px;
+  height: 6px;
+}
+
+.bar {
+  background-color: black;
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  padding: 15px 40px;
+  font-family: "Georgia";
+  color: rgb( 255, 255, 255 );
+}
+
+.newsSeperator {
+  background-color: rgb( 255, 171, 0 );
+  width: 5px;
+  height: 28px;
+}
+
+.topNews {
+  display: flex;
+  padding: 25px;
+}
+
+.newsHeading {
+  font-size: 14px;
+  font-family: 'Playfair Display';
+  color: rgb( 0, 0, 0 );
+  -moz-transform: matrix( 1.5517565321905,0,0,1.62934435880003,0,0);
+  -webkit-transform: matrix( 1.5517565321905,0,0,1.62934435880003,0,0);
+  -ms-transform: matrix( 1.5517565321905,0,0,1.62934435880003,0,0);
+  padding: 4px 30px;
+  font-weight: bold;
+}
+
+.firstRow {
+  display: flex;
+  background-color: rgb( 250, 250, 250 );
+}
+
+.firstLeftCard {
+  flex: 2;
+  background: url("/assets/images/rect1.jpg");
+  border-radius: 8px;
+  margin: 0px 0px 0px 27px;
+}
+
+.firstRightCard {
+  flex: 1 200px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 0px 27px 0px 20px;
+}
+
+.textLeft {
+  background-color: black;
+  height: 40px;
+  width: 148px;
+  border-radius: 5px;
+  margin: 20px;
+  opacity: 0.5;
+  color: white;
+  padding: 10px;
+  padding-left: 10px;
+  padding-left: 55px;
+  font-weight: bold;
+}
+
+.watchIconLeft {
+  margin-left: -43px;
+  height: 20px;
+}
+
+.date {
+  position: relative;
+  left: 9px;
+  bottom: 4px;
+}
+
+.RightContainer {
+  padding: 40px 50px 27px 45px;
+}
+
+.LeftContainer {
+  display: flex;
+}
+
+.textRight {
+  background-color: rgb( 255, 171, 0 );
+  height: 40px;
+  width: 148px;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.watchIconRight {
+  height: 20px;
+}
+
+.RightCardText {
+  font-size: 26px;
+  font-family: "Playfair Display";
+  color: rgb( 51, 51, 51 );
+  font-weight: bold;
+  line-height: 1.171;
+  padding: 35px 2px 0px 0px;
+}
+
+.cardText {
+  font-size: 15px;
+  font-family: "Georgia";
+  color: rgb( 75, 74, 74 );
+  line-height: 1.588;
+  text-align: justify;
+  padding: 35px 0px 0px 0px;
+  display: block;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 7.5em;
+  line-height: 1.8em;
+}
+
+.LeftCardText {
+  font-size: 26px;
+  font-family: "Playfair Display";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  line-height: 1.171;
+  padding: 240px 130px 8px 16px;
+}
+
+.LeftTextSep {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  color: white;
+  padding: 0px 0px 0px 19px;
+}
+
+.RightTextSep {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  color: rgb( 150, 151, 181 );
+  padding: 15px 0px 0px 0px;
+}
+
+.LeftSeperator {
+  background-color: white;
+  height: 126px;
+  width: 7px;
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+  margin: 250px 0px 0px 20px;
+}
+
+.RightCardFooter {
+  font-family: "Playfair Display";
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 25px 0px 0px 0px;
+  display: flex;
+}
+
+.leftFooterText {
+  flex: 2;
+}
+
+.secondRow {
+  display: flex;
+  padding: 20px 0px 0px 22px;
+  background-color: rgb( 250, 250, 250 );
+}
+
+.newsList {
+  flex: 1;
+  background-color: white;
+  height: 738px;
+}
+
+.article1 {
+}
+
+.articlesSection {
+  flex: 2
+}
+
+.articlesParent {
+  background-color: rgb( 250, 250, 250 );
+  display: flex;
+}
+
+.thirdRow {
+  display: flex;
+  padding: 20px 0px 0px 22px;
+  background-color: rgb( 250, 250, 250 );
+}
+
+.recentEvents {
+  height: 400px;
+  width: 393px;
+  background-color: white;
+  margin: 0px 0px 0px 13px;
+}
+
+.blogsParent {
+  background-color: rgb( 250, 250, 250 );
+  display: flex;
+  padding: 10px 0px 0px 0px;
+}
+
+.newsLetter {
+  width: 393px;
+  background-color: white;
+  margin: 20px 0px 0px 13px;
+  height: 368px;
+}
+
+.banner-heading {
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 40px;
+  font-weight: bold;
+  width: 800px;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 360px;
+}
+
+.banner-text {
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 16px;
+  width: 660px;
+  line-height: 1.7;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 545px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.latestNewsText1 {
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  width: 227px;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 860px;
+  top: 1120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.latestNewsText2 {
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  width: 520px;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 1110px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.latestNewsText3 {
+  color: white;
+  font-family: "Playfair Display";
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  width: 227px;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 860px;
+  right: 0;
+  top: 1120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news1 {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb( 0, 0, 0 );
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 430px;
+  top: 1810px;
+  width: 231.893px;
+  height: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news2 {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb( 0, 0, 0 );
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 430px;
+  top: 1940px;
+  width: 231.893px;
+  height: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news3 {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb( 0, 0, 0 );
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 430px;
+  top: 2080px;
+  width: 231.893px;
+  height: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news4 {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb( 0, 0, 0 );
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 430px;
+  top: 2220px;
+  width: 231.893px;
+  height: 85px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.latestNewsHeading {
+  font-size: 27px;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.latestNewsDiv2 {
+  height: 416px;
+  width: 376px;
+  background-color: white;
+}
+
+.latestNewsDiv3 {
+  margin: 0px 0px 0px 9px;
+  width: 756px;
+  background-color: white;
+}
+
+.blogDiv1 {
+  width: 750px;
+  background-color: white;
+}
+
+.blogDiv2 {
+  height: 470px;
+  background-color: white;
+}
+
+.blogDiv3 {
+  height: 470px;
+  background-color: white;
+  margin: 0px 0px 0px 17px;
+}
+
+.latestNewsRectHeader1 {
+  font-size: 23px;
+  font-family: "Playfair Display";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 788px;
+  top: 1932px;
+  width: 330px;
+  height: 16.893px;
+  font-weight: bold;
+}
+
+.latestNewsRectText1 {
+  font-size: 17px;
+  font-family: "Georgia";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 789px;
+  top: 2045px;
+  width: 280px;
+  height: 73px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.latestNewsRectHeader2 {
+  font-size: 22px;
+  font-family: "Playfair Display";
+  color: rgb( 0, 0, 0 );
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 1175px;
+  top: 1950px;
+  width: 300px;
+  font-weight: bold;
+  height: 70px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.latestNewsRectText2 {
+  font-size: 15px;
+  font-family: "Georgia";
+  color: rgb( 75, 74, 74 );
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 1175px;
+  top: 2025px;
+  width: 272px;
+  height: 92px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.latestNewsRectHeader3 {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: rgb( 0, 0, 0 );
+  line-height: 1.5;
+  text-align: left;
+  position: absolute;
+  left: 1177px;
+  top: 2190px;
+  width: 315px;
+  font-weight: bold;
+}
+
+.latestNewsRectText3 {
+  font-size: 14px;
+  font-family: "Georgia";
+  color: rgb( 75, 74, 74 );
+  line-height: 1.5;
+  text-align: justify;
+  position: absolute;
+  left: 1177px;
+  top: 2300px;
+  width: 313px;
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blogNewsRectHeader1 {
+  font-size: 25px;
+  font-family: "Playfair Display";
+  color: rgb( 51, 51, 51 );
+  font-weight: bold;
+  line-height: 1.171;
+  text-align: left;
+  position: absolute;
+  left: 771px;
+  top: 2513px;
+  width: 334px;
+}
+
+.blogNewsRectText1 {
+  font-size: 15px;
+  font-family: "Playfair Display";
+  color: rgb( 75, 74, 74 );
+  line-height: 1.588;
+  position: absolute;
+  left: 771px;
+  top: 2636px;
+  width: 328px;
+  height: 98px;
+  text-align: justify;
+  display: block;/* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.recentNews1 {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: rgb( 51, 51, 51 );
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 1247px;
+  top: 2562px;
+  font-weight: bold;
+  width: 240px;
+}
+
+.recentNews2 {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: rgb( 51, 51, 51 );
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 1247px;
+  top: 2670px;
+  font-weight: bold;
+  width: 240px;
+}
+
+.recentNews3 {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: rgb( 51, 51, 51 );
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 1247px;
+  top: 2716px;
+  font-weight: bold;
+  width: 240px;
+}
+
+.recentNews4 {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: rgb( 51, 51, 51 );
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 1247px;
+  top: 2792px;
+  font-weight: bold;
+  width: 240px;
+}
+
+.recentEventsHeading {
+  font-size: 24px;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 20px 0px 0px 0px;
+}
+
+.newsLetterHeading {
+  font-size: 24px;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  padding: 35px 0px 0px 0px;
+}
+
+.blogNewsRectHeader2 {
+  font-size: 25px;
+  font-family: "Playfair Display";
+  color: rgb( 51, 51, 51 );
+  font-weight: bold;
+  line-height: 1.171;
+  text-align: left;
+  position: absolute;
+  left: 400px;
+  top: 3012px;
+  width: 277px;
+}
+
+.blogNewsRectText2 {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  color: rgb( 75, 74, 74 );
+  line-height: 1.588;
+  position: absolute;
+  left: 401px;
+  top: 3170px;
+  width: 307px;
+  text-align: justify;
+  height: 79px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.blogNewsRectHeader3 {
+  font-size: 25px;
+  font-family: "Playfair Display";
+  color: rgb( 51, 51, 51 );
+  font-weight: bold;
+  line-height: 1.171;
+  text-align: left;
+  position: absolute;
+  left: 785px;
+  top: 3012px;
+  width: 277px;
+}
+
+.blogNewsRectText3 {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  color: rgb( 75, 74, 74 );
+  line-height: 1.588;
+  position: absolute;
+  left: 786px;
+  top: 3170px;
+  width: 307px;
+  height: 67px;
+  text-align: justify;
+  height: 79px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.news-letter-seperator {
+  background-color: gray;
+  height: 1px;
+  width: 289px;
+  margin: 25px 0px 0px 53px;
+}
+
+.news-letter-button {
+  border-radius: 5px;
+  background-color: rgb( 255, 171, 0 );
+  height: 50px;
+  width: 290px;
+  margin: 203px 0px 0px 53px;
+}
+
+.news-letter-button-text {
+  color: white;
+  font-family: "Playfair Display";
+  padding: 14px 0px 0px 115px;
+}
+
+.latest-news-button {
+  border-radius: 5px;
+  background-color: rgb( 255, 171, 0 );
+  height: 50px;
+  width: 340px;
+  margin: 581px 0px 0px 26px;
+}
+
+.latest-news-button-text {
+  color: white;
+  font-family: "Playfair Display";
+  padding: 14px 0px 0px 135px;
+}
+
+.latest-news-seperator {
+  background-color: rgb( 255, 171, 0 );
+  height: 2px;
+  width: 342px;
+  margin: 20px 0px 0px 25px;
+}
+
+.recent-event-seperator {
+  background-color: gray;
+  height: 1px;
+  width: 289px;
+  margin: 25px 0px 0px 53px;
+}
+
+.searchField {
+  width: 203px;
+  height: 40px;
+  margin: 17px 11px 0px 0px;
+}

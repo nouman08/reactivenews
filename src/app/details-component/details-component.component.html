@@ -1,0 +1,159 @@
+<div class="a">
+  <div class="mainHeading">
+    ReactiveNews
+  </div>
+  <div class="socialIcons">
+    <ul>
+      <li><img class="socialIcon" src="/assets/images/facebook.png"/></li>
+      <li><img class="socialIcon" src="/assets/images/twitter.png"/></li>
+      <li><img class="socialIcon" src="/assets/images/google+.png"/></li>
+      <li><img class="socialIcon" src="/assets/images/instagram.png"/></li>
+    </ul>
+  </div>
+</div>
+<div class="seperator"></div>
+<div class="b">
+  <div class="topnav">
+    <a href="#home"><img class="hamburger" src="/assets/images/hamburger.png"/></a>
+    <a href="#"><div class="navSeperator"></div></a>
+    <a href="#news">LATEST</a>
+    <a href="#contact">POPULAR</a>
+    <a href="#about">SUBSCRIBE</a>
+  </div>
+  <div class="navRight">
+    <a href="#"><img class="menuIcon" src="/assets/images/profile.png"/></a>
+    <a href="#signin">SIGN IN</a>
+    <a href="#"><div class="navSeperator"></div></a>
+    <a href="#"><img class="menuIcon" src="/assets/images/search.png"/></a>
+    <a href="#search">SEARCH</a>
+  </div>
+</div>
+
+<div class="content">
+  <div class="thirdRow">
+    <div class="blogsSection">
+      <div class="blog-div">
+        <img src="/assets/images/banner.jpg" class="blog-section-banner" />
+        <div class="banner-heading">
+          {{mArticle.title}}
+        </div>
+        <div class="bannerSeperator"></div>
+        <div class="bannerFooter">
+          by <span class="author">{{mArticle.author}}</span>
+        </div>
+        <div class="bannerContent">
+          <div class="banner-content-heading">
+            {{mArticle.title}}
+          </div>
+          <div class="LeftTextSep">
+            {{mArticle.source.id}} | {{mArticle.source.name}}
+          </div>
+          <div class="banner-content-description">
+            {{mArticle.description}}
+          </div>
+          <div class="banner-content-seperator"></div>
+          <div class="rightFooterText">
+            <img class="menuIcon" src="/assets/images/share.png">
+            <img class="menuIcon" src="/assets/images/view.png">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="newsAndEventsSection">
+      <div class="recentEvents">
+        <div class="recentEventsHeading">Recent Event</div>
+        <div class="recent-event-seperator"></div>
+        <div class="recentNews1">
+          {{mArticles[0].title}}
+        </div>
+        <div class="recentNews2">
+          {{mArticles[1].title}}
+        </div>
+        <div class="recentNews3">
+          {{mArticles[2].title}}
+        </div>
+        <div class="recentNews4">
+          {{mArticles[3].title}}
+        </div>
+      </div>
+      <div class="newsList">
+        <div class="latestNewsHeading">LATEST NEWS</div>
+        <div class="latest-news-seperator"></div>
+        <div class="news1">
+          <strong>{{mArticles[4].title}}</strong>
+          {{mArticles[4].description}}
+        </div>
+        <div class="news2">
+          <strong>{{mArticles[5].title}}</strong>
+          {{mArticles[5].description}}
+        </div>
+        <div class="news3">
+          <strong>{{mArticles[6].title}}</strong>
+          {{mArticles[6].description}}
+        </div>
+        <div class="news4">
+          <strong>{{mArticles[7].title}}</strong>
+          {{mArticles[7].description}}
+        </div>
+        <div class="news5">
+          <strong>{{mArticles[8].title}}</strong>
+          {{mArticles[8].description}}
+        </div>
+        <div class="latest-news-button">
+          <div class="latest-news-button-text">SEE MORE</div>
+        </div>
+      </div>
+      <div class="newsLetter">
+        <div class="newsLetterHeading">Newsletter</div>
+        <div class="news-letter-seperator"></div>
+        <div class="news-letter-button">
+          <div class="news-letter-button-text">Subscribe</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="footerContent">
+    <ul>
+      <li><strong>SECTIONS</strong></li>
+      <li>International</li>
+      <li>Sports</li>
+      <li>Health</li>
+      <li>Multimedia</li>
+      <li>Science & Technology</li>
+    </ul>
+  </div>
+  <div class="footerContent">
+    <ul>
+      <li><strong>INTERACTIVE</strong></li>
+      <li>Live Stream</li>
+      <li>Videos</li>
+      <li>Blogs</li>
+    </ul>
+  </div>
+  <div class="footerContent">
+    <ul>
+      <li><strong>CORPORATE</strong></li>
+      <li>Feedback</li>
+      <li>Contact Us</li>
+      <li>About Us</li>
+      <li>Career</li>
+    </ul>
+  </div>
+  <div class="footerContent">
+    <ul>
+      <li><strong>REACTIVE NETWORK</strong></li>
+    </ul>
+    <ul class="footerIcons">
+      <li><img class="footerSocialIcon" src="/assets/images/facebookColored.png"/></li>
+      <li><img class="footerSocialIcon" src="/assets/images/twitterColored.png"/></li>
+      <li><img class="footerSocialIcon" src="/assets/images/instagramColored.png"/></li>
+      <li><img class="footerSocialIcon" src="/assets/images/linkedinColored.png"/></li>
+    </ul>
+  </div>
+</div>
+<div class="bar">
+  <div class="leftContent">COPYRIGHT © 2020 - ReactiveNews, ALL RIGHTS RESERVED.</div>
+  <div class="rightContent">TERMS | CONDITIONS</div>
+</div>
